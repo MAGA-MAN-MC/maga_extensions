@@ -24,6 +24,8 @@ jobs:
 
     - name: Build
       run:  maga_app
-      grow marshmallow 
+       
+      
+
         npm install
         grunt
