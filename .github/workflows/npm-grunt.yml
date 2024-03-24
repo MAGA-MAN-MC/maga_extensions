@@ -1,4 +1,4 @@
-maga: NodeJS with Grunt
+: NodeJS with Grunt
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
-      run:  maga_app
+      run:  
        
       
 
